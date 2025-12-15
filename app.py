@@ -10,7 +10,7 @@ st.set_page_config(page_title="Life Expectancy Prediction", layout="wide")
 st.title("🌍 Life Expectancy Prediction using Linear Regression")
 
 # Load dataset
-uploaded_file = st.file_uploader("Upload your CSV dataset", type="csv")
+uploaded_file = st.file_uploader("https://drive.google.com/file/d/1ZY5xXJNMhFEBEHiJTBM1OGtegYrzGR_N/view?usp=drive_link", type="csv")
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
 else:
